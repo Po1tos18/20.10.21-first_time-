@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../20.10.21-first_time-/style.css">
+    <title>github</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="block_element"></div>
+        <div class="block_element"></div>
+        <div class="block_element"></div>
+        <div class="block_element"></div>
+        <div class="block_element"></div>
+        <div class="block_element"></div>
+        <div class="block_element"></div>
+        <div class="block_element"></div>
+        <div class="block_element"></div>
+        <div class="block_element"></div>
+        <div class="block_element"></div>
+        <div class="block_element"></div>
+        <div class="block_element"></div>
+        <div class="block_element"></div>
+        <div class="block_element"></div>
+    </div>
+    <script>
+        window.addEventListener('click', e => {
+            const red = (Math.random() * 255)
+            const green = (Math.random() * 255)
+            const blue = (Math.random() * 255)
+            e.target.style.background = `rgb(${red},${green},${blue})`
+        setTimeout(() => {
+            e.target.style.background = 'transparent'
+        }, 1000)
+        })
+    </script>
+</body>
+
+</html>
